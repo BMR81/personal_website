@@ -3,9 +3,11 @@ import { Link } from "react-router-dom"
 export default function Navbar(){
     return (
         <nav className="nav">
+            <div className="home-title">
             <Link to="/" className="site-title">
-                radovic
+                Radovic
             </Link>
+            </div>
             <ul>
                 <CustomLink className="nav-item" to="/about">About</CustomLink>
                 <CustomLink className="nav-item" to="/projects">Projects</CustomLink>

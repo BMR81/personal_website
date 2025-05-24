@@ -36,6 +36,36 @@ code {
   font-size: 1.15rem;
 }
 
+.home-title {
+  padding: 1%;
+  position: relative;
+  display: inline-block; /* Optional: keeps underline tight to the text */
+}
+
+.home-title::after,
+.home-title::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ffffff, #838a8a);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.home-title::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.home-title:hover::after,
+.home-title:hover::before {
+  transform: scaleX(1);
+}
+
 .nav ul {
   color: gray;
   padding: 0;
