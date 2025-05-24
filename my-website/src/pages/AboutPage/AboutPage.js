@@ -26,7 +26,7 @@ export default function About() {
                     out with friends. Additionally, I have a dog, Ginger, who is pictured with me above!
                 </p>
             </div>
-
+            
             <div className="socials-information">
                 <h3 id="socials-header">Socials</h3>
                 <ul id="socials-list">
