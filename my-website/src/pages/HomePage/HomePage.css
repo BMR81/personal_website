@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.home-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 70vh;
+    width: 50%;
+}
+
+#intro-text {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
