@@ -39,7 +39,7 @@ code {
 .home-title {
   padding: 1%;
   position: relative;
-  display: inline-block; /* Optional: keeps underline tight to the text */
+  display: inline-block;
 }
 
 .home-title::after,
@@ -49,16 +49,11 @@ code {
   width: 100%;
   height: 2px;
   background: linear-gradient(to right, #ffffff, #838a8a);
-  bottom: -5px;
+  bottom: -1px;
   left: 0;
   transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.4s ease-out;
-}
-
-.home-title::before {
-  top: -5px;
   transform-origin: left;
+  transition: transform 0.5s ease-out;
 }
 
 .home-title:hover::after,

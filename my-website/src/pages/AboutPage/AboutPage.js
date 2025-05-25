@@ -31,13 +31,13 @@ export default function About() {
                 <h3 id="socials-header">Socials</h3>
                 <ul id="socials-list">
                     <li>
-                        <a href="https://www.linkedin.com/in/benjamin-radovic/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin icon"></i></a></li>
+                        <a href="https://www.linkedin.com/in/benjamin-radovic/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin icon"></i></a></li>
                     
                     <li>
-                        <a href="https://github.com/BMR81" target="_blank" rel="noopener noreferrer"><i class="fab fa-github icon"></i></a></li>
+                        <a href="https://github.com/BMR81" target="_blank" rel="noopener noreferrer"><i className="fab fa-github icon"></i></a></li>
                     
                     <li>
-                        <a href="https://www.instagram.com/ben3795/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram icon"></i></a></li>
+                        <a href="https://www.instagram.com/ben3795/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon"></i></a></li>
                 </ul>
             </div>
 

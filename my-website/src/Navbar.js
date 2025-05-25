@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom"
 
-export default function Navbar(){
+export default function Navbar() {
     return (
         <nav className="nav">
             <div className="home-title">
-            <Link to="/" className="site-title">
-                Radovic
-            </Link>
+                <a href="/" className="site-title">Radovic</a>
             </div>
             <ul>
                 <CustomLink className="nav-item" to="/about">About</CustomLink>
@@ -16,13 +14,13 @@ export default function Navbar(){
     );
 }
 
-function CustomLink({ to, children, ...props }){
+function CustomLink({ to, children, ...props }) {
     const path = window.location.pathname
 
     return (
         <li className={path == to ? "active" : ""}>
             <Link to={to} {...props}>
-            {children}
+                {children}
             </Link>
         </li>
     );

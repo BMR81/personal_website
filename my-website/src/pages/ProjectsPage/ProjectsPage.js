@@ -5,10 +5,10 @@ export default function Projects() {
         <div className="projects-body">
             <h2 id="projects-header">Projects</h2>
 
-            <div class="projects-container">
-                <div class="box">
-                    <span></span>
-                    <div class="content">
+            <div className="projects-container">
+
+                <div className="project-card">
+                    <div className="content">
                         <h2>Dish It Out</h2>
                         <p>
                             Dish It Out is a mobile application developed with Flutter/Dart!
@@ -18,6 +18,7 @@ export default function Projects() {
                         <a href="https://github.com/BMR81/cs1635_dish_it_out_app" target="_blank" rel="noopener noreferrer">View Repo</a>
                     </div>
                 </div>
+                
             </div>
 
             <h2 id="more-projects-notice">More projects coming soon!</h2>
