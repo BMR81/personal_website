@@ -42,22 +42,20 @@ code {
   display: inline-block;
 }
 
-.home-title::after,
-.home-title::before {
+.home-title::after {
   content: '';
   position: absolute;
   width: 100%;
   height: 2px;
   background: linear-gradient(to right, #ffffff, #838a8a);
-  bottom: -1px;
-  left: 0;
+  bottom: 0px;
+  left: 0px;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s ease-out;
 }
 
-.home-title:hover::after,
-.home-title:hover::before {
+.home-title:hover::after {
   transform: scaleX(1);
 }
 

@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="projects-container">
 
                 <div className="project-card">
-                    <div className="content">
+                    <div className="project-content">
                         <h2>Dish It Out</h2>
                         <p>
                             Dish It Out is a mobile application developed with Flutter/Dart!

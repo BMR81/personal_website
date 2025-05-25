@@ -23,7 +23,8 @@ export default function About() {
                     <br></br>
 
                     When I'm not coding, I enjoy playing video games, exercising, and hanging
-                    out with friends. Additionally, I have a dog, Ginger, who is pictured with me above!
+                    out with friends. Additionally, I have two dogs, Lucy and Ginger, the latter of 
+                    whom is pictured with me above!
                 </p>
             </div>
             

@@ -24,80 +24,78 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px 0px 40px 0px;
+    padding: 10px 0px 20px 0px;
 }
 
-.projects-container .project-card {
+.project-card {
     position: relative;
     width: 320px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 30px 40px 30px;
+    margin: 10px 30px 10px 30px;
     transition: 0.5s;
 }
 
-.projects-container .project-card .content {
+.project-content {
     position: relative;
     left: 0;
-    padding: 20px 40px;
+    padding: 15px 40px;
     margin: 10%;
     background: rgb(40, 41, 43);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     z-index: 1;
-    transform: 0.5s;
+    transform: .5s;
     color: #fff;
 }
 
-.projects-container .project-card .content::before {
+.project-content::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, #ffffff, #000000);
-    filter: blur(20px);
+    background: linear-gradient(135deg, #ffffff, #383c42);
+    filter: blur(10px);
     border-radius: 8px;
-    opacity: 0.3;
+    opacity: 0.25;
     transition: opacity 0.5s;
     z-index: -1;
 }
 
-.projects-container .project-card:nth-child(1) .content::before {
-    background: linear-gradient(135deg, #68ec90, #ffe100);
+.project-card:nth-child(1) .project-content::before {
+    background: linear-gradient(135deg, #93ff4a, #3a7eca);
 }
 
-.projects-container .project-card:hover .content::before {
-    opacity: 0.6;
-    filter: blur(35px);
+.project-card:hover .project-content::before {
+    opacity: 0.5;
+    filter: blur(30px);
 }
 
-.projects-container .project-card .content h2 {
-    font-size: 2em;
+.project-content h2 {
+    font-size: 2rem;
     color: #fff;
     margin-bottom: 10px;
 }
 
-.projects-container .project-card .content p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    line-height: 1.4em;
+.project-content p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
 }
 
-.projects-container .project-card .content a {
+.project-content a {
     display: inline-block;
-    font-size: 1.1em;
-    color: #111;
-    background: #fff;
+    font-size: 1.1rem;
+    color: #000000;
+    background: #ffffff;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: 700;
-    margin-top: 5px;
+    margin: 5px 0px;
 }
 
-.projects-container .project-card .content a:hover {
+.project-content a:hover {
     background: #b9b8bd;
     border: 1px solid rgba(0, 0, 0, 0.4);
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
