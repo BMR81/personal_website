@@ -43,7 +43,7 @@ body {
     left: 0;
     padding: 15px 40px;
     margin: 10%;
-    background: rgb(40, 41, 43);
+    background: rgb(104, 105, 108);
     border-radius: 8px;
     z-index: 1;
     transform: .5s;
@@ -57,17 +57,17 @@ body {
     background: linear-gradient(#ffffff, #383c42);
     filter: blur(10px);
     border-radius: 8px;
-    opacity: 0.35;
+    opacity: 0.6;
     transition: opacity 0.5s;
     z-index: -1;
 }
 
 .project-card:nth-child(1) .project-content::before {
-    background: linear-gradient(#db3e26, #1885c4);
+    background: linear-gradient(#d9d625, #32c222);
 }
 
 .project-card:hover .project-content::before {
-    opacity: 0.6;
+    opacity: 0.8;
     filter: blur(30px);
 }
 
