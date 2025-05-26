@@ -24,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px 0px 20px 0px;
+    padding: 5px 0px 20px 0px;
 }
 
 .project-card {
@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 30px 10px 30px;
+    margin: 5px 30px 10px 30px;
     transition: 0.5s;
 }
 
@@ -54,20 +54,20 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, #ffffff, #383c42);
+    background: linear-gradient(#ffffff, #383c42);
     filter: blur(10px);
     border-radius: 8px;
-    opacity: 0.25;
+    opacity: 0.3;
     transition: opacity 0.5s;
     z-index: -1;
 }
 
 .project-card:nth-child(1) .project-content::before {
-    background: linear-gradient(135deg, #93ff4a, #3a7eca);
+    background: linear-gradient(#b22222, #ffffff);
 }
 
 .project-card:hover .project-content::before {
-    opacity: 0.5;
+    opacity: 0.55;
     filter: blur(30px);
 }
 
