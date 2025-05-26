@@ -35,7 +35,7 @@ export default function About() {
                     <li>
                         <a href="https://www.linkedin.com/in/benjamin-radovic/" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-linkedin icon"></i>
-                            <h4 className="social-name">LinkedIn</h4>
+                            <span className="social-name">LinkedIn</span>
                         </a>
                     </li>
 

@@ -22,6 +22,12 @@ body {
     height: 70vh;
     width: 50%;
 }
+@media (max-width: 800px) {
+    #intro-container {
+        width: 80%;
+    }
+  }
+
 
 #intro-text {
     color: white;
@@ -32,6 +38,11 @@ body {
     opacity: 0;
     animation: fadeIn 1.5s ease-in forwards;
 }
+@media (max-width: 800px) {
+    #intro-text {
+      font-size: 1.5rem;
+    }
+  }
 
 @keyframes fadeIn {
     to {
