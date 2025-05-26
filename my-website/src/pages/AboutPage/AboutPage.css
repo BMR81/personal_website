@@ -106,10 +106,5 @@ body {
     font-size: 18px;
     font-weight: 400;
     color:  #ffffff;
-    transition: 0s;
     z-index: 3;
-}
-
-#socials-list li a:hover h4{
-    color: #fff;
 }

@@ -57,17 +57,17 @@ body {
     background: linear-gradient(#ffffff, #383c42);
     filter: blur(10px);
     border-radius: 8px;
-    opacity: 0.3;
+    opacity: 0.35;
     transition: opacity 0.5s;
     z-index: -1;
 }
 
 .project-card:nth-child(1) .project-content::before {
-    background: linear-gradient(#b22222, #ffffff);
+    background: linear-gradient(#db3e26, #1885c4);
 }
 
 .project-card:hover .project-content::before {
-    opacity: 0.55;
+    opacity: 0.6;
     filter: blur(30px);
 }
 
