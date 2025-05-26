@@ -16,29 +16,36 @@ export default function About() {
                     <br></br>
                     <br></br>
 
-                    I am interested in pursuing full-stack development. I love designing intuitive,
-                    engaging user interfaces and the background processes that accompany them!
+                    I am interested in pursuing full-stack software development. I love designing 
+                    intuitive, engaging user interfaces and the background processes that accompany 
+                    them!
 
                     <br></br>
                     <br></br>
 
                     When I'm not coding, I enjoy playing video games, exercising, and hanging
-                    out with friends. Additionally, I have two dogs, Lucy and Ginger, the latter of 
+                    out with friends. Additionally, I have two dogs, Lucy and Ginger, the latter of
                     whom is pictured with me above!
                 </p>
             </div>
-            
+
             <div className="socials-information">
                 <h3 id="socials-header">Socials</h3>
                 <ul id="socials-list">
                     <li>
-                        <a href="https://www.linkedin.com/in/benjamin-radovic/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin icon"></i></a></li>
-                    
+                        <a href="https://www.linkedin.com/in/benjamin-radovic/" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-linkedin icon"></i>
+                            <h4 className="social-name">LinkedIn</h4>
+                        </a>
+                    </li>
+
                     <li>
-                        <a href="https://github.com/BMR81" target="_blank" rel="noopener noreferrer"><i className="fab fa-github icon"></i></a></li>
-                    
-                    <li>
-                        <a href="https://www.instagram.com/ben3795/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon"></i></a></li>
+                        <a href="https://github.com/BMR81" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-github icon"></i>
+                            <h4 className="social-name">GitHub</h4>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
 
