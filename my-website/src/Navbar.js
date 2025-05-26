@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="nav">
             <div className="home-title">
-                <a href="/" className="site-title">Radovic</a>
+                <Link to="/personal_website/" className="site-title">Radovic</Link>
             </div>
             <ul>
                 <CustomLink className="nav-item" to="/about">About</CustomLink>
