@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 export default function Navbar() {
     return (
@@ -15,10 +15,11 @@ export default function Navbar() {
 }
 
 function CustomLink({ to, children, ...props }) {
-    const path = window.location.pathname
+    const location = useLocation();
+    const isActive = location.pathname === to;
 
     return (
-        <li className={path == to ? "active" : ""}>
+        <li className={isActive ? "active" : ""}>
             <Link to={to} {...props}>
                 {children}
             </Link>
