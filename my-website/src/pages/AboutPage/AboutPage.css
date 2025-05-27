@@ -55,6 +55,7 @@ body {
     color: white;
     margin: 10% 0% 0% 0%;
     font-size: 1.25rem;
+    text-align: left;
 }
 @media (max-width: 800px) {
     #about-me-text {
