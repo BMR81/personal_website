@@ -15,7 +15,7 @@ export default function Projects() {
                             It takes a user's favorite dishes and provides them with related
                             restaurant recommendations through a Tinder-like swiping mechanism.
                         </p>
-                        <a href="https://github.com/BMR81/cs1635_dish_it_out_app" target="_blank" rel="noopener noreferrer">View Repo</a>
+                        <a href="https://github.com/BMR81/dish_it_out_app" target="_blank" rel="noopener noreferrer">View Repo</a>
                     </div>
                 </div>
                 
