@@ -9,21 +9,21 @@ export default function About() {
             <div className="about-description">
                 <h3 id="description-header">About Me</h3>
                 <p id="about-me-text">
-                    Hello! My name is Benjamin Radovic, and I am an aspiring software engineer.
-                    I've recently graduated from the University of Pittsburgh, where I obtained
+                    Hello! My name is Benjamin Radovic, and I am a software engineer.
+                    I graduated from the University of Pittsburgh in 2025, where I obtained
                     my B.S. in Computer Science.
 
                     <br></br>
                     <br></br>
 
-                    I am interested in pursuing full-stack software development. I love designing 
+                    I am interested in full-stack software development. I love designing 
                     intuitive, engaging user interfaces and the background processes that accompany 
                     them!
 
                     <br></br>
                     <br></br>
 
-                    When I'm not coding, I enjoy playing video games, exercising, and hanging
+                    When I'm not coding, I enjoy playing video games, lifting weights, and hanging
                     out with friends. Additionally, I have two dogs, Lucy and Ginger, the latter of
                     whom is pictured with me above!
                 </p>
